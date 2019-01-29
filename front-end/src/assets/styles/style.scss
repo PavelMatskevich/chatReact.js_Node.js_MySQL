@@ -1,0 +1,61 @@
+* {
+	font-family: 'Lato' sans-serif;
+}
+
+body {
+	background-color: #fff;
+}
+
+.wrapper {
+	width: 800px;
+	margin: 50px auto;
+	display: flex;
+	border: 1px solid #ccc;
+}
+
+.chat {
+	padding: 20px;
+	flex: 1;
+	max-height: 400px;
+	overflow-y: auto;
+}
+
+.userInfo, form {
+	border: 1px solid #ccc;
+}
+
+.userInfo .names {
+	margin: 5px 45px;
+}
+
+.email {
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+input {
+	margin: 5px 45px;
+	padding: 5px 10px;
+	font-size: 15px;
+	width: 40%;
+	border-radius: 6px;
+}
+
+textarea {
+	margin: 5px 45px;
+}
+
+button {
+	margin: 0 45px;
+	border-radius: 6px;
+	padding: 5px 15px;
+	background: #10AAD0;
+}
+
+.green {
+	border-color: green;
+}
+
+.red {
+	background-color: red;
+}
